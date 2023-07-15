@@ -1,0 +1,50 @@
+Given That,ip:192.178.93.0/22
+
+HOST: 350
+Avail Avail Network:512
+IP Range:192.178.93.0/23-192.178.94.255/23
+SM:255.255.254.0
+Default Getway:192.178.93.2
+
+HOST: 200
+Avail Avail Netowrk:256
+IP Range:192.178.95.0/24-192.178.95.255/24
+SM:255.255.255.0
+Default Getway:192.178.95.2
+
+HOST: 25
+Avail Avail Netowrk:32
+IP Range:192.178.96.0/27-192.178.95.31/27
+SM:255.255.255.224
+Default Getway:192.178.96.2
+
+HOST: 4
+Avail Avail Netowrk:4
+IP Range:192.178.96.32/30-192.178.95.35/30
+SM:255.255.255.252
+Default Getway:192.178.96.34
+
+
+R1:
+Avail Avail Netowrk:4
+IP Range:192.178.96.36/30-192.178.95.39/30
+SM:255.255.255.252
+Default Getway:192.178.96.37
+
+R2:
+Avail Avail Netowrk:4
+IP Range:192.178.96.40/30-192.178.95.43/30
+SM:255.255.255.252
+Default Getway:192.178.96.42
+
+R3:
+Avail Avail Netowrk:4
+IP Range:192.178.96.44/30-192.178.95.47/30
+SM:255.255.255.252
+Default Getway:192.178.96.46
+
+R4:
+Avail Avail Netowrk:4
+IP Range:192.178.96.48/30-192.178.95.51/30
+SM:255.255.255.252
+Default Getway:192.178.96.50
